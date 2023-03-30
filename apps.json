@@ -5,7 +5,7 @@
         {
             "apps":[
                 {
-                    "url": "http://localhost/hello.js", "name": "サンプルアプリ: こんにちは", "desc": "「こんにちは」を画面に表示します。"
+                    "url": "https://raw.githubusercontent.com/janin-and-winered/NAppStore/main/hello.js", "name": "サンプルアプリ: こんにちは", "desc": "「こんにちは」を画面に表示します。"
                 }
             ]
         }
