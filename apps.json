@@ -10,13 +10,4 @@
             ]
         }
     ],
-    "games":[
-        {
-            "apps":[
-                {
-                    "url": "http://localhost:8080/jquary.js", "name": "Jquary", "desc": "Javascriptを使いやすくするAPIです。"
-                }
-            ]
-        }
-    ]
 }
