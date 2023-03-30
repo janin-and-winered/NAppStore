@@ -1,0 +1,22 @@
+
+{
+    "genre":{"1": "utilitys", "2": "games"},
+    "utilitys":[
+        {
+            "apps":[
+                {
+                    "url": "http://localhost/hello.js", "name": "サンプルアプリ: こんにちは", "desc": "「こんにちは」を画面に表示します。"
+                }
+            ]
+        }
+    ],
+    "games":[
+        {
+            "apps":[
+                {
+                    "url": "http://localhost:8080/jquary.js", "name": "Jquary", "desc": "Javascriptを使いやすくするAPIです。"
+                }
+            ]
+        }
+    ]
+}
