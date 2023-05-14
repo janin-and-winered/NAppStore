@@ -1,0 +1,16 @@
+<html>
+    <script>
+        const sc_canvas = document.getElementsByClassName("sc-canvas");
+        const body = document.body;
+    
+        for(let i = 0; i < sc_canvas.length; i++){
+            sc_canvas[i].style.display = "none";
+        };
+        document.getElementById("button").onclick = function() {
+            for(let i = 0; i < sc_canvas.length; i++){
+                sc_canvas[i].style.display = "";
+            };
+        };
+    </script>
+    <button id="button">Exit</button>
+</html>
