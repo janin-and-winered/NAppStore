@@ -1,33 +1,9 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Canvas Example</title>
-    <style>
-      .container {
-        width: 80%;
-        margin: auto;
-        text-align: center;
-      }
-      #app {
-        display: none;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <h1>Canvas Example</h1>
-      <button id="button" onclick="test()">Exit</button>
-    </div>
-    <div id="app">
-      <h2>App</h2>
-      <p>This is the app content.</p>
-    </div>
-    <script>
-      function test() {
-        document.getElementById("app").classList.remove("hide");
-        document.getElementById("button").innerHTML = "Clicked";
-      };
-    </script>
-  </body>
-</html>
+<button id="exitb">Exit</button>
+
+<script>
+    function exit() {
+        document.getElementById("app").style = "";
+        document.removeChild("exitb")
+    };
+    document.getElementById("exitb").onclick = exit;
+</script>
