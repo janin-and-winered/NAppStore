@@ -16,17 +16,17 @@
     <div class="container">
       <h1>Canvas Example</h1>
       <button id="button" onclick="test()">Exit</button>
+      <script>
+        const sc_canvas = document.getElementsByClassName("sc-canvas");
+      
+        for(let i = 0; i < sc_canvas.length; i++){
+          sc_canvas[i].style.display = "none";
+        };
+        function test() {
+          document.getElementById("app").style = "";
+          document.getElementById("button").innerHTML = "Clicked";
+        };
+      </script>
     </div>
-    <script>
-      const sc_canvas = document.getElementsByClassName("sc-canvas");
-    
-      for(let i = 0; i < sc_canvas.length; i++){
-        sc_canvas[i].style.display = "none";
-      };
-      function test() {
-        document.getElementById("app").style = "";
-        document.getElementById("button").innerHTML = "Clicked";
-      };
-    </script>
   </body>
 </html>
