@@ -1,16 +1,26 @@
+<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Canvas Example</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Canvas Example</h1>
+      <button id="button">Exit</button>
+    </div>
     <script>
-        const sc_canvas = document.getElementsByClassName("sc-canvas");
-        const body = document.body;
+      const sc_canvas = document.getElementsByClassName("sc-canvas");
     
+      for(let i = 0; i < sc_canvas.length; i++){
+        sc_canvas[i].style.display = "none";
+      };
+      document.getElementById("button").onclick = function() {
         for(let i = 0; i < sc_canvas.length; i++){
-            sc_canvas[i].style.display = "none";
+          sc_canvas[i].style.display = "";
         };
-        document.getElementById("button").onclick = function() {
-            for(let i = 0; i < sc_canvas.length; i++){
-                sc_canvas[i].style.display = "";
-            };
-        };
+      };
     </script>
-    <button id="button">Exit</button>
+  </body>
 </html>
