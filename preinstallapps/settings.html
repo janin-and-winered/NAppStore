@@ -13,20 +13,20 @@
 
   </head>
   <body>
+    <script>
+        const sc_canvas = document.getElementsByClassName("sc-canvas");
+      
+        for(let i = 0; i < sc_canvas.length; i++){
+          sc_canvas[i].style.display = "none";
+        };
+        document.getElementById("button").onclick = function() {
+          document.getElementById("app").style = ""
+          document.getElementById("button").innerHTML = "Clicked"
+        };
+    </script>
     <div class="container">
       <h1>Canvas Example</h1>
       <button id="button">Exit</button>
     </div>
-    <script>
-      const sc_canvas = document.getElementsByClassName("sc-canvas");
-    
-      for(let i = 0; i < sc_canvas.length; i++){
-        sc_canvas[i].style.display = "none";
-      };
-      document.getElementById("button").onclick = function() {
-        document.getElementById("app").style = ""
-        document.getElementById("button").innerHTML = "Clicked"
-      };
-    </script>
   </body>
 </html>
