@@ -1,13 +1,4 @@
-//<button id="exitb" onclick="exit">Exit</button>
 
-//<script>
-//    function exit() {
-//        document.getElementById("app").style = "";
-//        document.removeChild("exitb")
-//    };
-//    document.getElementById("exitb").onclick = exit;
-//    alert("hello");
-//</script>
 
 
 var div = document.createElement("div");
