@@ -11,7 +11,7 @@
 
 
 var div = document.createElement("div");
-document.body.appendChild(div)
+
 
 var button = document.createElement("button");
 button.id = "exitb";
@@ -26,3 +26,5 @@ script.innerHTML('function exit() { \
         document.getElementById("exitb").onclick = exit; \
         alert("hello");"');
 div.appendChild(script);
+
+document.body.appendChild(div)
