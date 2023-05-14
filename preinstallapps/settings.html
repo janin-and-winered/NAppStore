@@ -13,20 +13,15 @@
 
   </head>
   <body>
-    <div class="container">
-      <h1>Canvas Example</h1>
-      <button id="button" onclick="test()">Exit</button>
-      <script>
-        const sc_canvas = document.getElementsByClassName("sc-canvas");
-      
-        for(let i = 0; i < sc_canvas.length; i++){
-          sc_canvas[i].style.display = "none";
-        };
+    <script>
         function test() {
           document.getElementById("app").style = "";
           document.getElementById("button").innerHTML = "Clicked";
         };
       </script>
+    <div class="container">
+      <h1>Canvas Example</h1>
+      <button id="button" onclick="test()">Exit</button>
     </div>
   </body>
 </html>
