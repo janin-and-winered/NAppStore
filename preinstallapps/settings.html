@@ -4,24 +4,30 @@
     <meta charset="UTF-8">
     <title>Canvas Example</title>
     <style>
-        .container {
+      .container {
         width: 80%;
         margin: auto;
         text-align: center;
-        }
+      }
+      #app {
+        display: none;
+      }
     </style>
-
   </head>
   <body>
-    <script>
-        function test() {
-          document.getElementById("app").style = "";
-          document.getElementById("button").innerHTML = "Clicked";
-        };
-      </script>
     <div class="container">
       <h1>Canvas Example</h1>
       <button id="button" onclick="test()">Exit</button>
     </div>
+    <div id="app">
+      <h2>App</h2>
+      <p>This is the app content.</p>
+    </div>
+    <script>
+      function test() {
+        document.getElementById("app").classList.remove("hide");
+        document.getElementById("button").innerHTML = "Clicked";
+      };
+    </script>
   </body>
 </html>
